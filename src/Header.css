@@ -6,7 +6,7 @@
   background-color: white;
   z-index: 100;
   top: 0;
-  box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, o.75);
+  box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.75);
 }
 
 .header__left {
@@ -73,4 +73,12 @@
 
 .header__right {
   display: flex;
+}
+
+.header__option--active > .MuiSvgIcon-root {
+  color: #2e81f4;
+}
+
+.header__option--active {
+  border-bottom: 4px solid #2e81f4;
 }
